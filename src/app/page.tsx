@@ -29,23 +29,23 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      
+
       {/* Hero Section */}
-      <section className="py-16 px-4 text-center relative">
+      <section className="py-36 px-4 text-center relative">
         <div className="max-w-4xl mx-auto relative z-10">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Your Brand. Built, Designed, and Amplified — Under One Roof.
+            Web design and creative services — all under one roof.
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8">
-            Creative solutions for the digital age. We bring your ideas to life through innovative design and technology.
+            Hi, I'm Chris — I build websites that elevate your brand, business, or project.
           </p>
           <Button size="lg" className="text-lg px-8 py-6">
-            Get Started
+            Let's Work Together
           </Button>
         </div>
-        
+
         {/* Absolute positioned 3D Animation */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[95vw] h-96 pointer-events-none z-0">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90vw] md:w-[95vw] h-96 pointer-events-none z-0 overflow-hidden">
           <ThreeScene />
         </div>
       </section>
@@ -53,7 +53,7 @@ export default function Home() {
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 relative">
-            <span className="relative z-10">Our Services</span>
+            <span className="relative z-10">What I Offer</span>
             <div className="absolute inset-0 bg-gradient-radial from-primary/20 via-primary/10 to-transparent blur-xl scale-150 -z-10"></div>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
